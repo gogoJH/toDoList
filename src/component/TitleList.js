@@ -18,7 +18,6 @@ class TitleList extends React.Component {
   }
 
   _keyCheck = (e) => {
-
    
     if (e.key === 'Enter') {
       let query = e.target.value;
@@ -32,7 +31,7 @@ class TitleList extends React.Component {
   render = () => {
     let titleList = this.props.titleList;
     let deleteTitleList = this.props.deleteTitleList;
-    console.log(this.state.flag)
+
     if (!this.state.flag) {
       return (
         <div id='TitleList' onClick={this._click}>

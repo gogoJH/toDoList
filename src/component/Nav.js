@@ -5,7 +5,7 @@ const Nav = (props) => {
 
     return (
       <div id='Nav'>
-        <Search />
+        <Search search={props.search}/>
       </div>
     );
 }

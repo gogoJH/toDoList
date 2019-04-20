@@ -24,9 +24,8 @@ class TitleListEntry extends Component {
         <div className="TitleListEntry" onClick={this._onClick}>
           <span>{this.props.item}</span>
         </div>
-
       );
-
+      
     } else {
       return (
         <div className="TitleListEntry" onClick={this._onClick}>
